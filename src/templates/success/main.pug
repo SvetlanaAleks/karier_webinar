@@ -1,0 +1,21 @@
+- var SUCCESS = LANG.success.main;
+
+mixin success-item(item)
+	.success-item
+		h4.success-item__title!= item.title
+		p.success-item__text!= item.text
+
+
+
+section.main-success
+	.container
+		p.main-success__title-small!= SUCCESS.title_small
+		h2.main-success__title.title!= SUCCESS.title
+		.main-success__wrapper
+			each item in SUCCESS.list
+				+success-item(item)
+		.main-success__bottom
+			.main-success__bottom-left
+				h4.main-success__subtitle!= SUCCESS.subtitle
+				p.main-success__desc!= SUCCESS.desc
+			h3.main-success__bottom-title.title!= SUCCESS.title_bottom

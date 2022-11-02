@@ -1,0 +1,17 @@
+- var COOKIE = LANG.cookie;
+
+section.privacy
+	.container
+		h1.privacy__title.title.title--med!= COOKIE.title
+		.privacy__wrapper
+			.privacy__block
+				p.privacy__text!= COOKIE.text
+			each item in COOKIE.chapters
+				.privacy__block
+					h4.privacy__subtitle!= item.title
+					each i in item.content
+						p.privacy__text!= i.text
+						if i.sublist
+							ul.privacy__list.list-privacy
+								each e in i.sublist
+									li.list-privacy__item!= e.text

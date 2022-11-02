@@ -1,0 +1,15 @@
+- var SPEAKER = LANG.speaker;
+
+section.speaker
+	.wrapper
+		.speaker__wrapper
+			h2.speaker__title.title.title--med!= SPEAKER.title
+			.speaker__info
+				p.speaker__name!= SPEAKER.name
+				p.speaker__post!= SPEAKER.post
+				ul.speaker__list.list-simple
+					each item in SPEAKER.list
+						li.list-simple__item.speaker__item!= item
+				a.speaker__link(href="#")
+					i.fico.fico-in
+			img.speaker__photo(src="img/speaker.png", alt="speaker")

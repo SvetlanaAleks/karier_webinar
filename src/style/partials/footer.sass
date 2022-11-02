@@ -1,0 +1,218 @@
+.footer
+	.wrapper
+		position: relative
+		padding-top: 75px
+		padding-bottom: 95px
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			bottom: 0
+			top: 0
+			left: -60px
+			right: -60px
+			border-top-right-radius: 40px
+			border-top-left-radius: 40px
+			background: #E3F5F3 url('../img/svg/footer_bg.svg') no-repeat right bottom
+			pointer-events: none
+			z-index: -1
+		+r(1920)
+			&::before
+				left: 20px
+				right: 20px
+		+r(1440)
+			padding-bottom: 75px
+		+r(1300)
+				background-size: 1370px
+		+r(1024)
+			&::before
+				left: 0
+				right: 0
+		+r(480)
+			padding-bottom: 40px
+			&::before
+				border-top-right-radius: 20px
+				border-top-left-radius: 20px
+				background-size: 690px
+	&__logo
+		position: absolute
+		left: 0
+		top: -25px
+		+r(1920)
+			left: 80px
+		+r(1440)
+			left: 70px
+		+r(1300)
+			left: 60px
+		+r(1024)
+			left: 30px
+		+r(1024)
+			width: 115px
+		+r(480)
+			left: 20px
+			top: -16px
+	&__col-rigth
+		max-width: 53%
+		width: 100%
+		+r(1024)
+			max-width: 58%
+		+r(768)
+			max-width: 100%
+	&__col-left
+		max-width: 31.4%
+		width: 100%
+		+r(1024)
+			max-width: 37%
+		+r(768)
+			max-width: 100%
+	&__top
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+		margin-bottom: 86px
+		+r(1440)
+			margin-bottom: 75px
+		+r(768)
+			flex-direction: column-reverse
+		+r(480)
+			margin-bottom: 47px
+	&__rigth-top
+		color: $garkGreen
+		font-size: 24px
+		line-height: 140%
+		padding-top: 22px
+		+r(1440)
+			font-size: 24px
+		+r(1300)
+			font-size: 20px
+		+r(768)
+			font-size: 18px
+			padding-top: 0
+		+r(480)
+			font-size: 16px
+	&__left-top
+		+r(768)
+			padding-bottom: 32px
+			margin-bottom: 27px
+			border-bottom: 1px solid transparentize($garkGreen, .8)
+	&__text
+		+nlt
+			margin-bottom: 33px
+		+r(1300)
+			+nlt
+				margin-bottom: 20px
+		+r(1024)
+			br
+				display: none
+		+r(768)
+			br
+				display: block
+			+nlt
+				margin-bottom: 10px
+		+r(480)
+			br
+				display: none
+			+nlt
+				margin-bottom: 16px
+	&__contact
+		+nlt
+			margin-bottom: 40px
+		+r(1300)
+			+nlt
+				margin-bottom: 25px
+		+r(480)
+			+nlt
+				margin-bottom: 30px
+	&__contact-label
+		font-size: 18px
+		line-height: 100%
+		color: #8D8D8D
+		margin-bottom: 12px
+		+r(1300)
+			font-size: 16px
+			margin-bottom: 8px
+	&__contact-link
+		color: $garkGreen
+		font-size: 24px
+		font-weight: 500
+		text-decoration: none
+		transition: all .3s
+		border-bottom: 1px solid transparentize($garkGreen, .999)
+		&:hover
+			border-bottom: 1px solid $garkGreen
+		+r(1440)
+			font-size: 24px
+		+r(1300)
+			font-size: 20px
+		+r(768)
+			font-size: 24px
+	&__rigth-bottom
+		display: flex
+		+r(480)
+			flex-wrap: wrap
+	&__bottom
+		display: flex
+		justify-content: space-between
+		align-items: center
+		+r(768)
+			flex-direction: column-reverse
+	&__privacy
+		text-decoration: none
+		color: $primary
+		font-size: 18px
+		transition: all .3s
+		border-bottom: 1px solid transparentize($primary, .999)
+		&:hover
+			border-bottom: 1px solid $primary
+		+nlt
+			margin-right: 50px
+		+r(1300)
+			font-size: 16px
+			+nlt
+				margin-right: 20px
+		+r(480)
+			display: block
+			+nlt
+				margin-right: 25px
+				margin-bottom: 10px
+	&__social
+		display: flex
+		.social__item
+			+nlt
+				margin-right: 20px
+		+r(1300)
+			.social__item
+				+nlt
+					margin-right: 15px
+		+r(768)
+			margin-bottom: 30px
+		+r(480)
+			.social__item
+				+nlt
+					margin-right: 10px
+.social
+	&__item
+		width: 48px
+		height: 48px
+		border-radius: 50%
+		background: $primary
+		display: flex
+		align-items: center
+		justify-content: center
+		text-decoration: none
+		transition: all .3s
+		&:hover
+			background: #00AB97
+		+r(1300)
+			width: 40px
+			height: 40px
+	.fico
+		color: white
+		&-whatsapp, &-instagram, &-facebook
+			font-size: 24px
+		&-linkedin
+			font-size: 21px
+		&-youtube
+			font-size: 17px
+		+r(1300)
+			transform: scale(.9)

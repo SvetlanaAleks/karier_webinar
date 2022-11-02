@@ -1,0 +1,141 @@
+.consultation
+	&__wrapper
+		padding-top: 70px
+		padding-bottom: 75px
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			bottom: 0
+			top: 0
+			left: -60px
+			right: -60px
+			border-radius: 40px
+			background: $primary
+			pointer-events: none
+			z-index: -1
+		+r(1440)
+			padding: 60px 0
+			&::before
+				left: -50px
+				right: -50px
+		+r(1300)
+			padding: 40px 0
+			&::before
+				left: -40px
+				right: -40px
+		+r(1024)
+			&:before
+				left: -30px
+				right: -30px
+		+r(480)
+			padding: 30px 0
+			&::before
+				left: -20px
+				right: -20px
+				border-radius: 20px
+	&__top
+		display: flex
+		align-items: center
+		margin-bottom: 54px
+		+r(1720)
+			margin-bottom: 45px
+		+r(1300)
+			margin-bottom: 35px
+		+r(768)
+			display: block
+			margin-bottom: 25px
+		+r(595)
+			margin-bottom: 32px
+	&__title
+		font-size: 64px
+		margin-right: 87px
+		+r(1720)
+			font-size: 60px
+		+r(1440)
+			font-size: 52px
+		+r(1300)
+			font-size: 48px
+		+r(1140)
+			font-size: 42px
+		+r(890)
+			font-size: 5vw
+			margin-right: 30px
+		+r(768)
+			font-size: 40px
+			line-height: 1
+			margin-right: 0
+			margin-bottom: 8px
+	&__desc
+		font-size: 24px
+		font-weight: 500
+		line-height: 120%
+		max-width: 380px
+		width: 100%
+		+r(1720)
+			font-size: 22px
+			max-width: 350px
+		+r(1440)
+			font-size: 20px
+			max-width: 320px
+		+r(1300)
+			font-size: 18px
+			max-width: 300px
+		+r(890)
+			font-size: 16px
+			max-width: 35%
+		+r(768)
+			max-width: 70%
+			font-size: 18px
+			line-height: 120%
+		+r(480)
+			max-width: 90%
+
+.form-consultation
+	&__top
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin-bottom: 40px
+		+r(1720)
+			margin-bottom: 30px
+		+r(1300)
+			margin-bottom: 15px
+		+r(890)
+			display: block
+		+r(595)
+			margin-bottom: 24px
+	&__inputs
+		display: flex
+		align-items: center
+		justify-content: space-between
+		width: 100%
+		margin-right: 28px
+		+r(1140)
+			margin-right: 20px
+		+r(890)
+			margin-right: 0
+			margin-bottom: 20px
+		+r(595)
+			display: block
+			margin-bottom: 32px
+	&__input-wrap
+		max-width: 430px
+		width: 100%
+		+r(1920)
+			max-width: calc(100%/3 - 10px)
+		+r(768)
+			max-width: calc(100%/3 - 5px)
+		+r(595)
+			max-width: 100%
+			+nlt
+				margin-bottom: 8px
+	&__btn
+		max-width: 400px
+		+r(1920)
+			max-width: 23%
+		+r(1024)
+			max-width: 32%
+		+r(595)
+			max-width: 100%

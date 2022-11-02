@@ -1,0 +1,92 @@
+.header-success
+	text-align: center
+	.wrapper
+		padding-top: 230px
+		padding-bottom: 147px
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			bottom: 0
+			top: 0
+			left: -60px
+			right: -60px
+			border-bottom-right-radius: 40px
+			border-bottom-left-radius: 40px
+			background: $ligthgreen
+			pointer-events: none
+			z-index: -1
+		+r(1920)
+			&::before
+				left: 20px
+				right: 20px
+		+r(1440)
+			padding-top: 200px
+			padding-bottom: 125px
+		+r(1300)
+			padding-top: 160px
+			padding-bottom: 95px
+		+r(1024)
+			&::before
+				left: 0
+				right: 0
+		+r(768)
+			padding-top: 140px
+			padding-bottom: 80px
+		+r(480)
+			padding-bottom: 64px
+			&::before
+				border-bottom-right-radius: 20px
+				border-bottom-left-radius: 20px
+	&__ico
+		width: 110px
+		height: 110px
+		border-radius: 50%
+		margin: 0 auto
+		margin-bottom: 75px
+		display: flex
+		align-items: center
+		justify-content: center
+		background: $yellow
+		.fico
+			color: $garkGreen
+		+r(1440)
+			width: 90px
+			height: 90px
+			margin-bottom: 60px
+			.fico
+				font-size: 45px
+		+r(1300)
+			margin-bottom: 50px
+		+r(768)
+			width: 85px
+			height: 85px
+			margin-bottom: 40px
+	&__title
+		color: $garkGreen
+		max-width: 870px
+		width: 100%
+		margin: 0 auto
+		margin-bottom: 24px
+		+r(1440)
+			max-width: 720px
+		+r(1300)
+			max-width: 600px
+			margin-bottom: 15px
+	&__desc
+		color: $garkGreen
+		font-size: 26px
+		line-height: 150%
+		font-weight: 500
+		+r(1440)
+			font-size: 24px
+		+r(1300)
+			font-size: 22px
+		+r(1024)
+			font-size: 20px
+		+r(768)
+			font-size: 18px
+			line-height: 130%
+		+r(480)
+			font-size: 16px

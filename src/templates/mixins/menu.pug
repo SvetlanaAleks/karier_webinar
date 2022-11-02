@@ -1,0 +1,9 @@
+mixin menu(page, color="ligth")
+	.menu(class="menu--"+color)
+		.wrapper
+			.menu__wrapper
+				a.menu__logo-link(href="index.html")
+					img.menu__logo(src="img/svg/logo.svg", alt="Karier")
+				.menu__language.language
+					a.language__link.js-language(href=url('en', `/${page}.html`), data-lang="en") En
+					a.language__link.active.js-language(href=url('id', `/${page}.html`), data-lang="id") Id

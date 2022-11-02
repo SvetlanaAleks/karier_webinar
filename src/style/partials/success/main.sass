@@ -1,0 +1,182 @@
+.main-success
+	padding-top: 112px
+	padding-bottom: 84px
+	+r(1440)
+		padding-top: 100px
+	+r(1300)
+		padding-top: 80px
+	+r(768)
+		padding-top: 45px
+	.container
+		max-width: 1000px
+		+r(1720)
+			max-width: 850px
+		+r(1440)
+			max-width: 770px
+		+r(1300)
+			max-width: 690px
+		+r(1140)
+			max-width: 620px
+		+r(1024)
+			max-width: 80%
+		+r(768)
+			max-width: 100%
+	&__title-small
+		color: $garkGreen
+		font-size: 26px
+		font-weight: 500
+		text-align: center
+		margin-bottom: 32px
+		+r(1440)
+			font-size: 24px
+			margin-bottom: 25px
+		+r(1300)
+			font-size: 22px
+			margin-bottom: 20px
+		+r(1024)
+			font-size: 20px
+		+r(768)
+			font-size: 18px
+			line-height: 130%
+		+r(480)
+			font-size: 16px
+			margin-bottom: 16px
+	&__title
+		color: $garkGreen
+		text-align: center
+		font-size: 48px
+		line-height: 1
+		margin-bottom: 76px
+		+r(1440)
+			font-size: 44px
+			margin-bottom: 60px
+		+r(1300)
+			font-size: 40px
+			margin-bottom: 45px
+		+r(595)
+			font-size: 32px
+			margin-bottom: 26px
+	&__wrapper
+		display: flex
+		flex-wrap: wrap
+		padding-bottom: 72px
+		margin-bottom: 72px
+		border-bottom: 1px solid $garkGreen
+		+r(1440)
+			padding-bottom: 60px
+			margin-bottom: 60px
+		+r(595)
+			padding-bottom: 25px
+			margin-bottom: 25px
+	&__bottom
+		display: flex
+		+r(595)
+			display: block
+	&__bottom-left
+		max-width: 50%
+		+r(595)
+			max-width: 100%
+			margin-bottom: 30px
+	&__subtitle
+		color: $garkGreen
+		font-size: 26px
+		font-weight: 500
+		line-height: 120%
+		margin-bottom: 16px
+		+r(1440)
+			font-size: 24px
+		+r(1300)
+			font-size: 20px
+			margin-bottom: 10px
+		+r(768)
+			font-size: 18px
+			line-height: 130%
+		+r(480)
+			font-size: 16px
+	&__desc
+		font-size: 18px
+		line-height: 169%
+		color: #6A6A6A
+		width: 90%
+		+r(1440)
+			font-size: 16px
+		+r(595)
+			line-height: 147%
+	&__bottom-title
+		color: $garkGreen
+		font-size: 58px
+		line-height: 1
+		padding-left: 22px
+		+r(1440)
+			font-size: 48px
+		+r(1300)
+			font-size: 42px
+		+r(595)
+			padding-left: 0
+			font-size: 40px
+
+
+.success-item
+	max-width: 50%
+	padding-top: 17px
+	padding-bottom: 43px
+	&:nth-of-type(odd)
+		padding-right: 40px
+	&:nth-of-type(even)
+		padding-left: 40px
+		border-left: 1px solid transparentize(#022723, .8)
+	&:not(:nth-of-type(-n+2))
+		border-top: 1px solid transparentize(#022723, .8)
+		padding-top: 50px
+	+r(1720)
+		padding-bottom: 35px
+		&:nth-of-type(odd)
+			padding-right: 30px
+		&:nth-of-type(even)
+			padding-left: 30px
+		&:not(:nth-of-type(-n+2))
+			padding-top: 40px
+	+r(1300)
+		padding-bottom: 30px
+		&:nth-of-type(even)
+			padding-left: 20px
+		&:not(:nth-of-type(-n+2))
+			padding-top: 30px
+	+r(595)
+		max-width: 100%
+		padding-top: 0
+		&:nth-of-type(even)
+			padding-left: 0
+			border: none
+		&:not(:nth-of-type(-n+2))
+			padding-top: 0
+		&:not(:nth-of-type(-n+2))
+			border-top: none
+		+nlt
+			padding-bottom: 24px
+			margin-bottom: 32px
+			border-bottom: 1px solid transparentize(#022723, .8)
+	&__title
+		color: $garkGreen
+		font-size: 26px
+		font-weight: 500
+		line-height: 120%
+		margin-bottom: 16px
+		+r(1440)
+			font-size: 24px
+		+r(1300)
+			font-size: 20px
+			margin-bottom: 10px
+		+r(768)
+			font-size: 18px
+			line-height: 130%
+		+r(480)
+			font-size: 16px
+	&__text
+		font-size: 18px
+		line-height: 169%
+		color: #6A6A6A
+		+r(1440)
+			font-size: 16px
+		+r(595)
+			line-height: 147%

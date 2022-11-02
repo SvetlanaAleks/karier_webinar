@@ -1,0 +1,376 @@
+body
+	font-family: 'Inter', sans-serif
+	font-size: 18px
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscal
+	text-size-adjust: none
+	-moz-text-size-adjust: none
+	-webkit-text-size-adjust: none
+	-ms-text-size-adjust: none
+	overflow-x: hidden
+	color: white
+html
+	overflow-x: hidden
+	-ms-text-size-adjust: 100%
+	-moz-text-size-adjust: 100%
+	-webkit-text-size-adjust: 100%
+::-ms-clear
+	display: none
+*:focus, *:visited, *:active, *:hover
+	outline: 0!important
+a, a:focus, a:visited, a:active, a:hover
+	outline: 0!important
+*::-moz-focus-inner
+	border: 0
+	outline: none
+img
+	max-width: 100%
+ul, li
+	list-style: none
+// Font icons
+.fico
+	display: inline-block
+	font-size: 3rem
+	&::before
+		display: block
+
+.yellow
+	color: $yellow
+
+
+.title
+	font-family: $fontBebas
+	font-weight: 400
+	&--main
+		font-size: 195px
+		line-height: 80%
+		+r(1920)
+			font-size: 10.1vw
+		+r(1600)
+			font-size: 9.2vw
+		+r(1440)
+			font-size: 10.1vw
+		+r(1024)
+			font-size: 11vw
+		+r(768)
+			font-size: 102px
+			line-height: 88%
+		+r(595)
+			font-size: 75px
+		+r(374)
+			font-size: 63px
+	&--med
+		font-size: 100px
+		line-height: 90%
+		+r(1720)
+			font-size: 88px
+		+r(1440)
+			font-size: 72px
+		+r(1300)
+			font-size: 60px
+		+r(1140)
+			font-size: 56px
+		+r(1024)
+			font-size: 5.5vw
+		+r(768)
+			font-size: 40px
+
+.list
+	&--yellow
+		.list
+			&__ico
+				background: $yellow
+				margin-right: 16px
+				.fico
+					color: #014038
+			&__text
+				font-size: 18px
+				font-weight: 500
+	&--green
+		.list
+			&__ico
+				background: $primary
+				margin-right: 24px
+				.fico
+					color: #fff
+					font-size: 16px
+			&__text
+				font-size: 24px
+				line-height: 120%
+				color: #022723
+	+r(1440)
+		&--green, &--pink
+			.list
+				&__ico
+					margin-right: 20px
+				&__text
+					font-size: 20px
+	+r(1300)
+		&--green, &--pink
+			.list
+				&__ico
+					margin-right: 15px
+				&__text
+					font-size: 18px
+	+r(1024)
+		&--green, &--pink
+			.list
+				&__ico
+					.fico
+						font-size: 12px
+				&__text
+					font-size: 16px
+	+r(480)
+		&--green, &--pink
+			.list
+				&__text
+					width: 90%
+	&__item
+		display: flex
+		align-items: flex-start
+	&__ico
+		width: 32px
+		height: 32px
+		border-radius: 50%
+		flex-shrink: 0
+		display: flex
+		align-items: center
+		justify-content: center
+		.fico
+			font-size: 17px
+		+r(1024)
+			width: 25px
+			height: 25px
+			.fico
+				font-size: 12px
+	&__text
+		min-height: 32px
+		display: flex
+		align-items: center
+		+r(1024)
+			min-height: 25px
+
+
+
+//checkbox
+.checkbox
+	display: flex
+	align-items: flex-start
+	position: relative
+	padding-left: 40px
+	cursor: pointer
+	font-size: 16px
+	line-height: 140%
+	color: transparentize(#fff, .3)
+	user-select: none
+	transition: all .3s
+
+	&.has-error
+		.checkbox__checkmark
+			border: 1px solid #ff5c5c
+			background: rgba(97,1,1,.5)
+	&:hover
+		color: #FFFFFF
+		.checkbox__checkmark
+			background: #00544A
+			border: 1px solid rgba(255, 255, 255, 0.7)
+	&__error
+		color: #FF5C5C
+		font-size: 13px
+		font-weight: 500
+		pointer-events: none
+		display: block
+	+r(1140)
+		font-size: 14px
+		padding-left: 35px
+	&__input
+		position: absolute
+		opacity: 0
+		cursor: pointer
+		height: 1px
+		width: 1px
+		top: 9px
+		left: 7px
+		&:checked
+			~ .checkbox__checkmark
+				background-color: $yellow
+				border: 1px solid $yellow
+				.fico
+					opacity: 1
+	&__label
+		cursor: pointer
+	&__checkmark
+		position: absolute
+		top: 3px
+		left: 0
+		height: 24px
+		width: 24px
+		background: #016155
+		border: 1px solid rgba(255, 255, 255, 0.4)
+		border-radius: 5px
+		display: flex
+		align-items: center
+		justify-content: center
+		transition: all .3s
+		.fico
+			opacity: 0
+			color: #014038
+			font-size: 14px
+			transition: all .3s
+
+.input-wrap
+	position: relative
+	&.has-error
+		.input-wrap
+			&__error
+				display: block
+			&__input
+				background: #30332D
+				border: 1px solid #FF5C5C
+				&:-webkit-autofill
+					-webkit-box-shadow: inset 0 0 0 50px #30332D
+					-webkit-text-fill-color: white
+	&__error
+		right: 13px
+		position: absolute
+		top: 16px
+		color: #FF5C5C
+		font-size: 12px
+		font-weight: 500
+		display: none
+		pointer-events: none
+	&__label
+		font-weight: 500
+		left: 25px
+		font-weight: 500
+		font-size: 20px
+		color: white
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+		pointer-events: none
+		transition: all .2s
+		+r(1440)
+			left: 20px
+		+r(1300)
+			font-size: 18px
+	&__input
+		max-width: 100%
+		width: 100%
+		box-sizing: border-box
+		background: #016155
+		border: 1px solid rgba(255, 255, 255, 0.4)
+		border-radius: 5px
+		height: 64px
+		padding: 0 25px
+		font-weight: 500
+		font-size: 20px
+		font-family: 'Inter', sans-serif
+		color: white
+		transition: all .3s
+		padding-bottom: 16px
+		padding-top: 26px
+		&:-webkit-autofill
+			-webkit-box-shadow: inset 0 0 0 50px #016155
+			-webkit-text-fill-color: white
+		&:hover, &:focus
+			background: #00544A
+			border: 1px solid rgba(255, 255, 255, 0.7)
+		&:focus, &.active
+			&~.input-wrap__label
+				font-size: 12px
+				top: 16px
+		+r(1440)
+			height: 60px
+			padding: 20px 20px 9px
+		+r(1300)
+			height: 56px
+			font-size: 18px
+
+
+.btn
+	max-width: 100%
+	width: 100%
+	display: block
+	text-decoration: none
+	outline: none
+	border: none
+	text-align: center
+	border-radius: 5px
+	background: $yellow
+	font-weight: 600
+	font-size: 24px
+	line-height: 100%
+	color: #014038
+	min-height: 64px
+	cursor: pointer
+	transition: all .3s
+	font-family: 'Inter', sans-serif
+	&:hover
+		background: #FFF500
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+	+r(1440)
+		min-height: 60px
+		font-size: 22px
+	+r(1300)
+		min-height: 56px
+		font-size: 20px
+
+
+
+.timer
+	display: flex
+	align-items: center
+	font-family: $fontBebas
+	font-size: 48px
+	+r(1140)
+		font-size: 30px
+	&__block
+		display: flex
+		align-items: center
+	&__el
+		width: 40px
+		height: 61px
+		line-height: 61px
+		display: flex
+		align-items: center
+		justify-content: center
+		background: #0D3D36
+		border-radius: 3.38889px
+		position: relative
+		z-index: 1
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			width: 100%
+			top: 50%
+			transform: translateY(-50%)
+			height: 0.677778px
+			background: #30615B
+			z-index: -1
+		span
+			line-height: 1
+			height: 42px
+		+nlt
+			margin-right: 5px
+		+r(1440)
+			width: 36px
+			height: 58px
+			line-height: 58px
+		+r(1300)
+			width: 33px
+			height: 51px
+			span
+				font-size: 36px
+				height: 31px
+		+r(1140)
+			width: 28px
+			height: 44px
+			span
+				font-size: 29px
+				height: 26px
+	&__dot
+		margin: 0 8px
+		+r(1300)
+			margin: 0 6px

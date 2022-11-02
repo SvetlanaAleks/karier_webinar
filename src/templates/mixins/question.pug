@@ -1,0 +1,12 @@
+mixin question(question)
+	.question
+		.question__top.js-btn-accordeon
+			h3.question__ttl!=question.ttl
+			.question__button
+		.question__info.js-info-accordeon
+			if question.list
+				ul.question-list
+					each item in question.list
+						li.question-list__item!= item
+			else
+				p.question__text!=question.text

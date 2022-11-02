@@ -1,0 +1,16 @@
+- var PROMO = LANG.promo;
+include ../templates/mixins/list.pug
+
+section.promo
+	.wrapper
+		.promo__wrapper
+			.promo__info
+				p.promo__label
+					span!= PROMO.label_1
+					span!= PROMO.label_2
+				h1.promo__title.title.title--main!= PROMO.title
+				p.promo__desc!= PROMO.desc
+				+list(PROMO.list).promo__list.list--yellow
+			button.promo__btn.btn.js-scroll(data-target="#registration")!= PROMO.btn
+			.promo__form
+				include form

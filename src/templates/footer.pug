@@ -1,0 +1,31 @@
+- var FOOTER = LANG.footer;
+
+footer.footer
+	.wrapper
+		.footer__top
+			.footer__rigth-top.footer__col-rigth
+				p.footer__text!= FOOTER.text_1
+				p.footer__text!= FOOTER.text_2
+			.footer__left-top.footer__col-left
+				.footer__contact
+					p.footer__contact-label!= FOOTER.label_contact_1
+					a.footer__contact-link(href="mailto:support@education.com") support@education.com
+				.footer__contact
+					p.footer__contact-label!= FOOTER.label_contact_2
+					a.footer__contact-link(href="tel:+63285123321") +63 (285) 123-321
+		.footer__bottom
+			.footer__rigth-bottom.footer__col-rigth
+				a.footer__privacy(href="privacy.html")!= FOOTER.privacy_link_1
+				a.footer__privacy(href="terms.html")!= FOOTER.privacy_link_2
+				a.footer__privacy(href="cookie-policy.html")!= FOOTER.privacy_link_3
+			.footer__social.footer__col-left.social
+				a.social__item(href="#")
+					i.fico.fico-whatsapp
+				a.social__item(href="#")
+					i.fico.fico-instagram
+				a.social__item(href="#")
+					i.fico.fico-facebook
+				a.social__item(href="#")
+					i.fico.fico-linkedin
+				a.social__item(href="#")
+					i.fico.fico-youtube

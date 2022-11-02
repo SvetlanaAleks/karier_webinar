@@ -1,0 +1,17 @@
+- var TERMS = LANG.terms;
+
+section.privacy
+	.container
+		h1.privacy__title.title.title--med!= TERMS.title
+		.privacy__wrapper
+			each item in TERMS.chapters
+				.privacy__block
+					h4.privacy__subtitle!= item.title
+					.privacy__wrap
+						each i in item.text
+							p.privacy__text!= i
+						if item.list
+							ul.privacy__list.list-privacy.pl15
+								each el in item.list
+									li.list-privacy__item!= el
+						p.privacy__text.mt!= item.text_1

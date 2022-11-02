@@ -1,0 +1,4 @@
+mixin nav(nav)
+	ul.nav&attributes(attributes)
+		each item in nav
+			li.nav__item.js-scroll(data-target=item.target)!= item.text

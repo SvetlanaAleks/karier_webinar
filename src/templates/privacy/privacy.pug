@@ -1,0 +1,19 @@
+- var PRIVACY = LANG.privacy;
+
+section.privacy
+	.container
+		h1.privacy__title.title.title--med!= PRIVACY.title
+		.privacy__wrapper
+			.privacy__block
+				p.privacy__text!= PRIVACY.text_1
+				p.privacy__text!= PRIVACY.text_2
+			each item in PRIVACY.chapters
+				.privacy__block
+					h4.privacy__subtitle!= item.title
+					ul.privacy__list.list-privacy.pl15
+						each el in item.list
+							li.list-privacy__item!= el.text
+								if el.sublist
+									ul.privacy__list.list-privacy
+										each e in el.sublist
+											li.list-privacy__item!= e.text

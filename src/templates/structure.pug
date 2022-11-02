@@ -1,0 +1,9 @@
+- var STRUCTURE = LANG.structure;
+include ../templates/mixins/list.pug
+
+section.structure#structure
+	.wrapper
+		.structure__top
+			.structure__left
+				h2.structure__title.title.title--med!= STRUCTURE.title
+			+list(STRUCTURE.list).structure__list.list--green

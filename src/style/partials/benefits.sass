@@ -1,0 +1,108 @@
+.benefits
+	padding: 120px 0
+	+r(1440)
+		padding: 90px 0
+	+r(1140)
+		padding: 75px 0
+	+r(1024)
+		padding: 60px 0
+	+r(480)
+		padding: 40px 0
+	&__title
+		color: $garkGreen
+		margin-bottom: 80px
+		+r(1300)
+			margin-bottom: 65px
+		+r(1024)
+			margin-bottom: 40px
+		+r(768)
+		+r(595)
+			margin-bottom: 25px
+			br
+				display: none
+		+r(480)
+			margin-bottom: 14px
+	&__list
+		display: flex
+		justify-content: space-between
+		+r(890)
+			flex-wrap: wrap
+	&__item
+		max-width: calc(100%/4)
+		width: 100%
+		+r(890)
+			max-width: 50%
+		+r(480)
+			max-width: 100%
+
+.advantage
+	padding-top: 28px
+	padding-bottom: 5px
+	&:not(:first-of-type)
+		margin-left: 50px
+	+nlt
+		border-right: 1px solid transparentize(#022723, .8)
+	+r(1720)
+		&:not(:first-of-type)
+			margin-left: 30px
+	+r(1440)
+		padding: 15px 0
+	+r(1140)
+		&:not(:first-of-type)
+			margin-left: 20px
+	+r(890)
+		&:not(:first-of-type)
+			margin-left: 0
+		&:nth-of-type(even)
+			padding-left: 20px
+			border-left: 1px solid transparentize(#022723, .8)
+		+nlt
+			border-right: none
+		&:nth-of-type(-n+2)
+			border-bottom: 1px solid transparentize(#022723, .8)
+	+r(480)
+		padding: 0
+		display: flex
+		align-items: center
+		&:nth-of-type(even)
+			padding-left: 0
+			border: none
+		+nlt
+			padding-bottom: 12px
+			margin-bottom: 14px
+			border-bottom: 1px solid transparentize(#022723, .8)
+	&__ico-wrap
+		flex-shrink: 0
+		margin-bottom: 32px
+		min-height: 87px
+		+r(1300)
+			transform-origin: bottom left
+			transform: scale(.9)
+			margin-bottom: 26px
+		+r(1140)
+			transform: scale(.85)
+		+r(1024)
+			margin-bottom: 20px
+		+r(480)
+			margin-right: 15px
+			width: 48px
+			margin-bottom: 0
+			min-height: auto
+	&__text
+		color: $garkGreen
+		font-weight: 500
+		font-size: 24px
+		line-height: 120%
+		max-width: 82%
+		+r(1440)
+			font-size: 22px
+		+r(1300)
+			font-size: 20px
+		+r(768)
+			font-size: 18px
+		+r(480)
+			max-width: 100%
+			font-size: 16px
+			min-height: 54px
+			display: flex
+			align-items: center

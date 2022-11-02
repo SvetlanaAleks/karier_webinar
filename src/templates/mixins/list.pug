@@ -1,0 +1,7 @@
+mixin list(item)
+	ul.list&attributes(attributes)
+		each text in item
+			li.list__item
+				.list__ico
+					i.fico.fico-check
+				span.list__text!= text

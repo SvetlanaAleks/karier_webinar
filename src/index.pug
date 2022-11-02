@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+html(lang=LANG.locale)
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="css/main.css")
+    title!= LANG.locale.title
+    script.
+      var locale = "!{LANG.locale}";
+  body
+    include templates/mixins/menu.pug
+    +menu('index')
+    include templates/promo
+    include templates/benefits
+    include templates/structure
+    include templates/speaker
+    include templates/registration
+    include templates/footer
+
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+    script(src="js/main.js")

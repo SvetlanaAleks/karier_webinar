@@ -1,0 +1,68 @@
+.form
+	padding: 52px 60px 38px
+	background: #00665A
+	border-radius: 40px
+	+r(1600)
+		padding: 30px 40px
+	+r(1300)
+		padding: 25px
+	+r(480)
+		border-radius: 20px
+	&__top
+		margin-bottom: 40px
+		display: flex
+		align-items: flex-end
+		justify-content: space-between
+		+r(1140)
+			margin-bottom: 25px
+		+r(768)
+			justify-content: center
+	&__timer-text
+		width: 150px
+		font-size: 20px
+		line-height: 110%
+		+r(1300)
+			width: 100px
+			font-size: 18px
+		+r(1140)
+			font-size: 16px
+		+r(374)
+			display: none
+	&__title
+		font-family: $fontBebas
+		font-size: 56px
+		line-height: 1
+		margin-bottom: 35px
+		+r(1720)
+			font-size: 48px
+			margin-bottom: 30px
+			width: 90%
+		+r(1440)
+			font-size: 40px
+			margin-bottom: 20px
+		+r(1300)
+			font-size: 37px
+			margin-bottom: 15px
+			width: 77%
+		+r(1024)
+			font-size: 34px
+			width: 75%
+	&__inputs
+		margin-bottom: 36px
+		+r(1440)
+			margin-bottom: 30px
+		+r(1300)
+			margin-bottom: 20px
+	&__input-wrap
+		+nlt
+			margin-bottom: 16px
+		+r(1440)
+			+nlt
+				margin-bottom: 13px
+		+r(1300)
+			+nlt
+				margin-bottom: 8px
+	&__btn
+		margin-bottom: 24px
+		+r(1440)
+			margin-bottom: 20px

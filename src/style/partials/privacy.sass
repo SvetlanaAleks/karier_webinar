@@ -1,0 +1,85 @@
+.privacy
+	padding-top: 180px
+	padding-bottom: 120px
+	color: #6A6A6A
+	font-size: 18px
+	line-height: 170%
+	+r(768)
+		font-size: 16px
+		line-height: 150%
+		padding-top: 130px
+		padding-bottom: 70px
+	.container
+		max-width: 1000px
+	&__title
+		color: $garkGreen
+		max-width: 610px
+		width: 100%
+		margin-bottom: 48px
+		+r(768)
+			margin-bottom: 24px
+	&__block
+		+nlt
+			margin-bottom: 40px
+		+r(768)
+			+nlt
+				margin-bottom: 24px
+	&__text
+		+nlt
+			margin-bottom: 30px
+		+r(768)
+			+nlt
+				margin-bottom: 20px
+	.mt
+		margin-top: 30px
+		+r(768)
+			margin-top: 20px
+	&__subtitle
+		color: $garkGreen
+		font-weight: 500
+		font-size: 26px
+		line-height: 120%
+		margin-bottom: 24px
+		text-transform: uppercase
+		+r(768)
+			font-size: 16px
+			margin-bottom: 16px
+	.pl15
+		padding-left: 20px
+		+r(480)
+			padding-left: 0
+	a
+		text-decoration: none
+		color: #007668
+		&:hover
+			text-decoration: underline
+
+
+.list-privacy
+	&__item
+		position: relative
+		padding-left: 28px
+		ul
+			margin-top: 10px
+		+nlt
+			margin-bottom: 10px
+		span
+			display: block
+			font-weight: bold
+			margin-bottom: 10px
+			color: $garkGreen
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			width: 10px
+			height: 10px
+			border-radius: 50%
+			background: #007668
+			left: 0
+			top: 9px
+		+r(768)
+			padding-left: 24px
+			&::after
+				width: 8px
+				height: 8px

@@ -1,0 +1,141 @@
+.speaker
+	padding-top: 90px
+	+r(1440)
+		padding-top: 30px
+	+r(1024)
+		padding-top: 20px
+	&__wrapper
+		background: url('../img/svg/speaker_bg.svg') no-repeat left 52%
+		display: flex
+		align-items: flex-start
+		+r(1024)
+			flex-wrap: wrap
+			background: none
+	&__title
+		color: $garkGreen
+		width: 31.5%
+		margin-right: 50px
+		flex-shrink: 0
+		+r(1720)
+			margin-right: 30px
+		+r(1024)
+			width: 100%
+			margin-bottom: 50px
+			margin-right: 0
+		+r(890)
+			margin-bottom: 30px
+		+r(480)
+			margin-bottom: 25px
+	&__info
+		max-width: 32%
+		width: 100%
+		padding-top: 17px
+		+r(1720)
+			margin-bottom: 60px
+		+r(1440)
+			padding-top: 0
+			margin-bottom: 50px
+		+r(1024)
+			max-width: 55%
+		+r(768)
+			max-width: 50%
+		+r(595)
+			max-width: 100%
+			margin-bottom: 0
+	&__name
+		color: $garkGreen
+		font-size: 32px
+		font-weight: 500
+		line-height: 1
+		margin-bottom: 16px
+		+r(1440)
+			font-size: 30px
+			margin-bottom: 13px
+		+r(1140)
+			font-size: 28px
+			margin-bottom: 10px
+		+r(768)
+			font-size: 24px
+	&__post
+		color: $primary
+		font-size: 24px
+		padding-bottom: 38px
+		margin-bottom: 34px
+		border-bottom: 1px solid $garkGreen
+		+r(1440)
+			font-size: 22px
+			padding-bottom: 30px
+			margin-bottom: 28px
+		+r(1140)
+			font-size: 18px
+			padding-bottom: 20px
+			margin-bottom: 20px
+		+r(768)
+			font-size: 16px
+			padding-bottom: 21px
+			margin-bottom: 25px
+	&__list
+		margin-bottom: 30px
+		+r(1440)
+			margin-bottom: 25px
+	.fico
+		color: $garkGreen
+		font-size: 28px
+	&__item
+		+nlt
+			margin-bottom: 16px
+			padding-bottom: 13px
+			border-bottom: 1px solid transparentize($garkGreen, .8)
+		+r(1440)
+			+nlt
+				margin-bottom: 10px
+				padding-bottom: 10px
+	&__photo
+		margin-top: -60px
+		width: 32.5%
+		align-self: flex-end
+		+r(1600)
+			margin-top: -1%
+		+r(1440)
+			min-width: 350px
+			margin-right: -30px
+		+r(1024)
+			width: 40%
+			margin-top: -7%
+			margin-right: 0
+			min-width: 310px
+		+r(768)
+			min-width: auto
+			width: 50%
+		+r(595)
+			width: 100%
+			max-width: 290px
+			margin: 0 auto
+			margin-top: -20px
+
+.list-simple
+	color: transparentize($garkGreen, .2)
+	font-size: 18px
+	line-height: 140%
+	+r(1140)
+		line-height: 120%
+	+r(768)
+		font-size: 16px
+	&__item
+		position: relative
+		padding-left: 30px
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			left: 0
+			top: 5px
+			width: 10px
+			height: 10px
+			border-radius: 50%
+			background: $primary
+		+r(595)
+			padding-left: 24px
+			&::after
+				width: 8px
+				height: 8px

@@ -1,0 +1,207 @@
+.registration
+	padding-bottom: 20px
+	&__wrapper
+		background: #005F53 url('../img/svg/registration_bg.svg') no-repeat left bottom
+		display: flex
+		justify-content: space-between
+		border-radius: 40px
+		margin: 0 -60px
+		+r(1440)
+			margin: 0 -50px
+		+r(1300)
+			margin: 0 -40px
+		+r(1140)
+			background-size: 800px
+		+r(1024)
+			margin: 0 -30px
+		+r(768)
+			display: block
+			background: #005F53
+		+r(480)
+			border-radius: 20px
+			margin: 0 -20px
+	&__left
+		padding-left: 60px
+		padding-top: 69px
+		padding-bottom: 70px
+		max-width: 60%
+		width: 100%
+		display: flex
+		flex-direction: column
+		+r(1440)
+			padding-left: 40px
+			padding-top: 60px
+		+r(1300)
+			padding-left: 30px
+			padding-top: 50px
+		+r(1024)
+			padding: 30px
+		+r(768)
+			max-width: 100%
+		+r(595)
+			padding-bottom: 0
+		+r(480)
+			padding-left: 20px
+			padding-right: 20px
+	&__title
+		font-size: 134px
+		line-height: 90%
+		+r(1920)
+			font-size: 7vw
+		+r(1140)
+			font-size: 9vw
+		+r(768)
+			margin-bottom: 30px
+			max-width: 70%
+		+r(595)
+			font-size: 40px
+		+r(480)
+			max-width: 99%
+			margin-bottom: 17px
+	&__info
+		display: flex
+		align-items: flex-end
+		margin-top: auto
+		+r(1024)
+			display: block
+		+r(768)
+			display: flex
+			align-items: center
+		+r(595)
+			display: block
+	&__price-wrap
+		width: auto
+		margin-right: 100px
+		+r(1720)
+			margin-right: 40px
+		+r(1440)
+			margin-right: 30px
+		+r(1300)
+			margin-right: 20px
+		+r(1024)
+			margin-right: 0
+			margin-bottom: 30px
+		+r(768)
+			margin-bottom: 0
+			margin-right: 20px
+		+r(595)
+			margin-right: 0
+	&__price-label
+		font-size: 18px
+		line-height: 120%
+		margin-bottom: 15px
+		+r(1300)
+			font-size: 16px
+			margin-bottom: 10px
+	&__price
+		display: flex
+		align-items: flex-start
+		font-family: $fontBebas
+		white-space: nowrap
+	&__price-new
+		margin-right: 32px
+		font-size: 96px
+		+r(1440)
+			font-size: 92px
+			margin-right: 12px
+		+r(1300)
+			font-size: 86px
+			margin-right: 10px
+		+r(768)
+			font-size: 80px
+			margin-right: 16px
+		+r(374)
+			font-size: 74px
+		
+	&__price-old
+		font-size: 40px
+		line-height: 120%
+		text-decoration-line: line-through
+		+r(1440)
+			font-size: 36px
+		+r(1300)
+			font-size: 32px
+		+r(768)
+			font-size: 40px
+		+r(374)
+			font-size: 36px
+	&__date
+		display: flex
+		align-items: center
+		margin-bottom: 17px
+		+r(1024)
+			margin-bottom: 0
+	&__form
+		max-width: 680px
+		width: 100%
+		.form
+			background: $primary
+			&__title
+				display: none
+		+r(1920)
+			max-width: 37%
+		+r(1140)
+			max-width: 35%
+		+r(1024)
+			max-width: 40%
+			min-width: 360px
+		+r(768)
+			margin: 0 auto
+			min-width: auto
+			max-width: 100%
+		+r(595)
+			max-width: 100%
+
+
+.date-item
+	display: flex
+	align-items: center
+	width: auto
+	flex-shrink: 0
+	padding: 18px 0
+	padding-right: 40px
+	border-top: 1px solid transparentize(white, 0.5)
+	border-bottom: 1px solid transparentize(white, 0.5)
+	&:not(:first-of-type)
+		padding-left: 40px
+	+nlt
+		border-right: 1px solid transparentize(white, 0.5)
+	+r(1720)
+		padding-right: 30px
+		&:not(:first-of-type)
+			padding-left: 30px
+	+r(1300)
+		padding-right: 20px
+		&:not(:first-of-type)
+			padding-left: 20px
+	+r(1140)
+		padding-top: 10px
+		padding-bottom: 10px
+	+r(595)
+		border-bottom: 0
+		width: 50%
+		justify-content: center
+		padding: 10px
+		text-align: center
+	&__ico
+		flex-shrink: 0
+		margin-right: 24px
+		+r(1300)
+			margin-right: 15px
+		+r(1140)
+			margin-right: 10px
+			height: 28px
+		+r(768)
+			display: none
+	&__text
+		font-weight: 500
+		font-size: 18px
+		line-height: 120%
+		+r(1300)
+			font-size: 16px
+		+r(595)
+			br
+				display: none
+		+r(480)
+			br
+				display: block

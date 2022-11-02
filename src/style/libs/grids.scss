@@ -1,0 +1,57 @@
+.container {
+  width: 1520px;
+  margin: 0 auto;
+  // 1520px 12cols
+  // 90px 40px
+  @include r(1720) {
+    width: 1290px;
+    // 80px 30px
+  }
+  @include r(1440) {
+    width: 1170px;
+    //   // 70px 30px
+  }
+  @include r(1300) {
+    width: 1050px;
+    //   // 60px 20px
+  }
+  @include r(1140) {
+    width: 940px;
+  }
+  @include r(1024) {
+    width: 100%;
+    padding: 0 30px;
+  }
+  @include r(768) {
+    padding: 0 30px;
+  }
+  @include r(480) {
+    padding: 0 20px;
+  }
+}
+.wrapper {
+  width: 1760px;
+  margin: 0 auto;
+  @include r(1920) {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  @include r(1440) {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  @include r(1300) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  @include r(1024) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  @include r(480) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

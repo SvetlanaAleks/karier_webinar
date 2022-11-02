@@ -1,0 +1,547 @@
+{
+  "locale": "en",
+  "title": "Introduction to Data Analytics",
+  "promo": {
+    "label_1": "<span class=\"yellow\">Free</span> webinar",
+    "label_2": "24 November, 7 pm, Jakarta time",
+    "title": "Introduction to Data Analytics",
+    "desc": "5 steps to get into new <span class=\"yellow\">highly-paid</span> <br/> remote profession",
+    "list": ["Beginner-friendly"],
+    "btn": "Register now"
+  },
+  "form": {
+    "title": "Register on the <span class=\"yellow\">free</span> webinar",
+    "inputName": "Name",
+    "inputPhone": "Phone",
+    "inputEmail": "E-mail",
+    "button": "Register now",
+    "button_2": "Send request",
+    "button_3": "Register for the free webinar",
+    "checkbox": "By clicking the checkbox you agree to our privacy policy, terms of use and training agreement",
+    "desc": "Our consultants will answer all your questions",
+    "timer": "Offer <br> expires in:"
+  },
+  "benefits": {
+    "title": "This webinar will help you <br> to understand",
+    "list": [
+      "What a Data Analyst does",
+      "What are the career perspectives of a Data Analyst",
+      "How long you need to learn to become a Data Analyst",
+      "What are the main subjects a Data Analyst should know and where to learn them"
+    ]
+  },
+  "structure": {
+    "title": "Webinar <br> structure",
+    "list": [
+      "What is data analytics?",
+      "Some data analytics real-world case studies",
+      "Career possibilities for a Data Analyst",
+      "What subjects a Data Analyst needs to know",
+      "How to become a Data Analyst"
+    ]
+  },
+  "speaker": {
+    "title": "Speaker of the&nbsp;webinar",
+    "name": "Vinson Ciawandy",
+    "post": "Senior Data Scientist at Tokopedia",
+    "list": [
+      "Senior Data Scientist at Tokopedia",
+      "Growth mindset awardee at Tokopedia",
+      "6+ years of experience in Data Analytics and Data Science",
+      "Experienced Data Science instructor"
+    ]
+  },
+  "registration": {
+    "title": "Introduction to Data Analytics",
+    "label": "Early birds offer:",
+    "date1": "24 <br> November",
+    "date2": "7 p.m. <br> Jakarta time",
+    "old_price": "free",
+    "new_price": "Rp 450.000"
+  },
+  "footer": {
+    "text_1": "EVECARE-SINGAPORE PRIVATE LTD.",
+    "text_2": "Address: 160 Robinson Road, #25-06 SBF Center, Singapore 068914 <br> Reg.No 201728702Z",
+    "label_contact_1": "Students support: ",
+    "label_contact_2": "For more information about the courses:",
+    "privacy_link_1": "Privacy Policy",
+    "privacy_link_2": "Terms of use",
+    "privacy_link_3": "Cookie policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy for Make Profit SRL",
+    "text_1": "We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the Make Profit SRL. The use of the Internet pages of the Make Profit SRL is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.",
+    "text_2": "As the controller, the Make Profit SRL has implemented numerous technical and organizational measures to ensure the most complete protection of personal data processed through this website. However, Internet-based data transmissions may in principle have security gaps, so absolute protection may not be guaranteed. For this reason, every data subject is free to transfer personal data to us via alternative means, e.g. by telephone.",
+    "chapters": [
+      {
+        "title": "1. DEFINITIONS",
+        "list": [
+          {
+            "text": "1.1. The data protection declaration of the Make Profit SRL is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR). Our data protection declaration should be legible and understandable for the general public, as well as our Customers and business partners. To ensure this, we would like to first explain the terminology used."
+          },
+          {
+            "text": "1.2. In this data protection declaration, Make Profit SRL use, inter alia, the following terms:",
+            "sublist": [
+              {
+                "text": "1.2.1. Personal data - means any information relating to an identified or identifiable natural person (“data subject”). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person."
+              },
+              {
+                "text": "1.2.2. Data subject - is any identified or identifiable natural person, whose personal data is processed by the controller responsible for the processing."
+              },
+              {
+                "text": "1.2.3. Processing - is any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction."
+              },
+              {
+                "text": "1.2.4. Restriction of processing - is the marking of stored personal data with the aim of limiting their processing in the future."
+              },
+              {
+                "text": "1.2.5. The Company is a legal entity MAKE PROFIT SRL, which is registered and located at Sector 5, Calea Rahovei Str. 266-268, CORP 2, AXELE A-B, office 06D, Bucharest, Romania, 050897, which operates the Site."
+              },
+              {
+                "text": "1.2.6. The Site is a web portal under the URL address: <a  href=\"http://karier.me/\">http://karier.me/</a>."
+              },
+              {
+                "text": "1.2.7. The Customer is an individual who intends to order or purchase, or who orders, purchases or uses the Goods solely for personal, family, household and other needs not related to business activities with proper legal capacity."
+              },
+              {
+                "text": "1.2.8. The Order is the expression of the Customer's will, drawn up in accordance with these terms and conditions, aimed at the conclusion of an agreement of purchase and sale of Goods, offered by the Company for retail sale through the Site."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. NAME AND ADDRESS OF THE CONTROLLER",
+        "list": [
+          {
+            "text": "2.1. Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is: Make Profit SRL | Email: <a  href=\"mailto:support@education.com\">support@makeprofit.srl</a> | Website: <a  href=\"mailto:support@education.com\"><a  href=\"http://karier.me/\">http://karier.me/</a></a>"
+          }
+        ]
+      },
+      {
+        "title": "3. PERSONAL INFORMATION GATHERING",
+        "list": [
+          {
+            "text": "3.1. When Customer visits the Site, the Company collects certain information about Customer's device, such as Internet Protocol (IP) address, browser type and version, location and time zone, language, operating system and access platform."
+          },
+          {
+            "text": "3.2. The Company also collects information about the Customer's interaction with the Site and the information necessary to process the Customer's Orders, namely:",
+            "sublist": [
+              {
+                "text": "3.2.1. personal data of the Customer: name, surname, contact phone number, delivery address;"
+              },
+              {
+                "text": "3.2.2. transaction information depending on the type of payment selected at the time of purchase, such as the name of the bank or payment system that was used to make the payment;"
+              },
+              {
+                "text": "3.2.3. additional information if the Customer contacts us in case of any questions that relate to the Customer's Order or the Company's products."
+              }
+            ]
+          },
+          {
+            "text": "3.3. The information specified in clauses 3.1. and 3.2. is collected by the Company automatically as soon as the Customer enters the Site, as well as is provided by the Customer independently in the process of placing the Order and purchasing Goods."
+          },
+          {
+            "text": "3.4. The purpose of collecting the information specified in clauses 3.1. and 3.2., is a necessity for the proper operation and improvement of the Company's Site, as well as for processing the Customer's Order and, as a consequence, its delivery."
+          }
+        ]
+      },
+      {
+        "title": "4. COOKIES, WEB SERVER LOGS, WEB BEACONS AND GOOGLE ANALYTICS",
+        "list": [
+          {
+            "text": "4.1. Company uses a variety of marketing, advertising and analytical tools for managing, with the aim of segmenting the offerings and helping Customers to find the product they are looking for or to make known a product that interests them. For this we use various technologies such as web beacons, pixels, ad tags and cookies. Cookies are text files that are stored in a computer system via an Internet browser."
+          },
+          {
+            "text": "4.2. Many Internet sites and servers use cookies. Many cookies contain a so-called cookie ID. A cookie ID is a unique identifier of the cookie. It consists of a character string through which Internet pages and servers can be assigned to the specific Internet browser in which the cookie was stored. This allows visited Internet sites and servers to differentiate the individual browser of the dats subject from other Internet browsers that contain other cookies. A specific Internet browser can be recognized and identified using the unique cookie ID."
+          },
+          {
+            "text": "4.3. Through the use of cookies, the Company can provide the users of this website with more user-friendly services that would not be possible without the cookie setting."
+          },
+          {
+            "text": "4.4. By means of a cookie, the information and offers on Website can be optimized with the Customer in mind. Cookies allow Company, as previously mentioned, to recognize our Website Customers. The purpose of this recognition is to make it easier for Customers to utilize our Website. The Customers that uses cookies, e.g. do not have to enter access data each time the Website is accessed, because this is taken over by the Website, and the cookie is thus stored on the Customer's computer system. Another example is the cookie of a shopping cart in an online shop. The online store remembers the articles that a Customer has placed in the virtual shopping cart via a cookie."
+          },
+          {
+            "text": "4.5. The data subject may, at any time, prevent the setting of cookies through our website by means of a corresponding setting of the Internet browser used, and may thus permanently deny the setting of cookies. Furthermore, already set cookies may be deleted at any time via an Internet browser or other software programs. This is possible in all popular Internet browsers. If the data subject deactivates the setting of cookies in the Internet browser used, not all functions of Website may be entirely usable."
+          },
+          {
+            "text": "4.6. Company also uses Google Analytics services to track page views, navigation paths, and other details of Customer’s visit so that Company can improve the way Web-site operates."
+          }
+        ]
+      },
+      {
+        "title": "5. THE COOKIES WE SET",
+        "list": [
+          {
+            "text": "5.1. The Web-site of the Company use following cookies:",
+            "sublist": [
+              {
+                "text": "5.1.1. Login related cookies. Company use cookies when Customers are logged in so that Company can remember this fact. This prevents Customer from having to log in every single time visit a new page. These cookies are typically removed or cleared when Customer log out to ensure that you can only access restricted features and areas when logged in."
+              },
+              {
+                "text": "5.1.2. Email newsletters related cookies. Web-site includes a possibility to offer newsletter or email subscription services. Web-site offers newsletter or email subscription services and cookies may be used to remember if Customer has already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed Customers."
+              },
+              {
+                "text": "5.1.3. Forms related cookies. When Customer submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember Customer user details for future correspondence."
+              }
+            ]
+          },
+          {
+            "text": "5.2. The Customer may also additionally familiarize themselves with the types of cookies that the Company uses in the Cookies Use Policy."
+          }
+        ]
+      },
+      {
+        "title": "6. SUBSCRIPTION TO OUR NEWSLETTERS",
+        "list": [
+          {
+            "text": "6.1. On the Web-site, Customers are given the opportunity to subscribe to our enterprise's newsletter. The input mask used for this purpose determines what personal data are transmitted, as well as when the newsletter is ordered from the Company."
+          },
+          {
+            "text": "6.2. The Company informs its Customers and business partners regularly by means of a newsletter about enterprise offers. The enterprise's newsletter may only be received by the data subject if (1) the data subject has a valid e-mail address and (2) the data subject registers for the newsletter shipping. A confirmation e-mail will be sent to the e-mail address registered by a data subject for the first time for newsletter shipping, for legal reasons, in the double opt-in procedure. This confirmation e-mail is used to prove whether the owner of the e-mail address as the data subject is authorized to receive the newsletter."
+          },
+          {
+            "text": "6.3. During the registration for the newsletter, we also store the IP address of the computer system assigned by the Internet service provider (ISP) and used by the data subject at the time of the registration, as well as the date and time of the registration. The collection of this data is necessary in order to understand the (possible) misuse of the e-mail address of a data subject at a later date, and it therefore serves the aim of the legal protection of the Company."
+          }
+        ]
+      },
+      {
+        "title": "7. INFORMATION SAVING AND PROCESSING REASONS",
+        "list": [
+          {
+            "text": "7.1. The Company processes the Customer's Personal Information on the following legal grounds:",
+            "sublist": [
+              {
+                "text": "7.1.1. the Customer's consent, which they express themselves by placing an appropriate check mark in the box: I accept the terms of the \"Confidentiality Agreement\";"
+              },
+              {
+                "text": "7.1.2. the agreement between the Customer and the Company, which is concluded as a result of execution of the Order."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "8. PASSING INFORMATION TO THIRD PARTIES",
+        "list": [
+          {
+            "text": "8.1. In order to properly fulfill the Customer's Order, the Company transmits the Customer's Personal Data to third parties that are directly involved in the Order processing, payment and delivery. For example, the Company transmits the Customer's Personal Data automatically (by redirecting the digital data from the Company software to the contractor software) to the Order processing services, Order delivery services, banks, payment systems for the possibility of payment and delivery of the Order to the Customer."
+          }
+        ]
+      },
+      {
+        "title": "9. SECURITY MEASURES",
+        "list": [
+          {
+            "text": "9.1. The Company offers appropriate protection methods that protect Customers' Personal Information against destruction, loss, alteration, access, disclosure and unauthorized use."
+          },
+          {
+            "text": "9.2. All information that Customers provide to the Company is stored on secure servers. The Company uses modern methods and technologies of information encryption to provide more security and prevent possible fraud. For additional security, payment transactions are processed automatically by banks or payment systems (depending on the payment method chosen). Thus, the Company does not store any personal or bank data related to the Customer's transaction."
+          },
+          {
+            "text": "9.3. Please note, however, that the Company cannot guarantee data privacy in all circumstances and forever, given the limits of security systems. Nevertheless, the Company strives to update security systems so as not to compromise confidentiality."
+          }
+        ]
+      },
+      {
+        "title": "10. DATA RETENTION PERIOD",
+        "list": [
+          {
+            "text": "10.1. When the Customer places an Order through the Site, the Company retains the Customer's Personal Information for Company records until the Customer requests their removal under the \"Customer's Rights\" section."
+          }
+        ]
+      },
+      {
+        "title": "11. CUSTOMER RIGHTS",
+        "list": [
+          {
+            "text": "11.1. The Customer has the right to access the Personal Information that the Company keeps about him/her, transfer it to a new service, request correction, update or deletion."
+          },
+          {
+            "text": "11.2. The Customer may revoke any consent previously provided to the Company or object at any time legally with respect to the processing of his or her Personal Information. Data processed before the Company receives your request may still be legally processed."
+          },
+          {
+            "text": "11.3. In order to use the above rights, the Customer should contact the Company using the contact information below: support@makeprofit.srl."
+          }
+        ]
+      },
+      {
+        "title": "12. UPDATES",
+        "list": [
+          {
+            "text": "12.1. The Company may update this Privacy Policy from time to time."
+          },
+          {
+            "text": "12.2. Any changes that are made to this Privacy Policy will be posted here promptly."
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Make Profit SRL Terms of Service",
+    "chapters": [
+      {
+        "title": "ТERMINOLOGY",
+        "text": [
+          "The Company is a legal entity MAKE PROFIT SRL, which is registered and located at Sector 5, Calea Rahovei Str. 266-268, CORP 2, AXELE A-B, office 06D, Bucharest, Romania, 050897, which operates the Site.",
+          "The Site is a web portal under the URL address <a  href=\"http://karier.me/\">http://karier.me/</a>.",
+          "The Customer is an individual who intends to order or purchase, or who orders, purchases or uses the Goods solely for personal, family, household and other needs not related to business activities with proper legal capacity.",
+          "Goods - any goods that are placed on the Site and are available for purchase by Customers.",
+          "The Order is the expression of the Customer's will, drawn up in accordance with these terms and conditions, aimed at the conclusion of an agreement of purchase and sale of Goods, offered by the Company for retail sale through the Site.",
+          "Delivery Service is a general term used to refer to third parties that provide services under contract with the Company for the delivery of Orders to Customers."
+        ]
+      },
+      {
+        "title": "GENERAL TERMS",
+        "text": [
+          "These terms and conditions are the public offer and regulate mutual relations between the Company and the Customer, which arise in connection with visiting the Site by the Customer, registration of the Order, conclusion of the contract of purchase and sale of Goods with the Company through the Site in the order provided below under the text (hereinafter - Terms).",
+          "The Company reserves the right to change these Terms and Conditions. The version posted on the Site at the time of purchase will be considered current and enforceable.",
+          "Before using the Site and beginning the process of purchasing Goods, Customer must carefully read these Terms and Conditions.",
+          "The Customer agrees to these Terms and Conditions by personally checking the box \"I have read and accept the Terms and Conditions\" and \"Confidentiality Agreement\". The Customer will not be able to complete the Ordering process without checking the mentioned marks."
+        ]
+      },
+      {
+        "title": "THE ORDERING PROCEDURE AND THE CONCLUSION OF THE PURCHASE AND SALE AGREEMENT",
+        "text": [
+          "The order is made by the Customer independently through the Site.",
+
+          "The Customer's self-registration of the Order through the Site is as follows: to start the process of ordering, the Customer clicks the button \"Order now\" on the page of the selected Goods, which causes the automatic redirection of the Customer to the Order Form. In the Order Form, the Customer provides his/her personal data, that is: first name, last name, address, contact phone number and e-mail. In order to place an order, the Customer clicks on the \"Order placement\" button. After that the Customer gets to the page, where he/she is offered to choose some offers for a selected product. On the same page, the Customer can familiarize with Goods and Shipping costs.",
+
+          "To place the Order, the Customer should tick the selected offer, provide the data of a bank card for payment and clic the button \"Place an order\". After that, the Customer will be redirected to the page for payment confirmation.",
+
+          "The Order is considered as a placed one and the contract of sale between the Company and the Customer is signed as soon as the Customer receives the payment confirmation of the Order. The Order data of the Customer are send to him/her in written form along with the Goods.",
+
+          "The Customer has the right to refuse the Order at any time in the process of placing the Order. To do this, it is necessary to remove the Goods from the Cart. An incomplete Order is not considered to be completed and will not be sent to the Customer.",
+
+          "The Customer has the right to refuse the Order in whole or in part at any time prior to the transfer of the Order for delivery by calling the telephone number indicated on the Site."
+        ]
+      },
+      {
+        "title": "PRODUCT FEATURES",
+        "text": [
+          "Goods are presented on the Site in the catalog through photo samples, which are the property of the Company, which the Customer can find by clicking on the \"Goods\" page.",
+          "To get full information about the Goods, the Customer needs to click on the selected Goods. On the page of the selected Goods the Customer will be able to get acquainted with the composition, characteristics of the Goods, their appearance, weight, quantity in one package, method of application.",
+          "Photo-sample of the Goods packaging color, which is provided on the Website, may slightly differ from the original Goods packaging, depending on the resolution and settings of the Customer's computer/phone monitor.",
+          "In case the Customer has any questions concerning the Goods of the Company, the Customer can get a consultation, where he\\she will be provided with all the necessary information in detail. In order to get the consultation, the Customer shall fill in the electronic form which can be found on the \"Contacts\" page. After sending the form, the Customer will be contacted by the representative of the Company."
+        ]
+      },
+      {
+        "title": "PRODUCT PRICE AND PAYMENT METHODS",
+        "text": [
+          " The Customer can view the prices by going to the \"Goods\" page on the Site. The Company may change the price of the entire assortment of Goods or individual items at any time on the Site. At the same time such changes will not affect the confirmed Orders.",
+
+          "The price of the Goods includes all the applicable taxes. The value added tax rate applicable to the price of the Goods directly depends on the country of delivery, which is indicated by the Customer. The price of the Goods is indicated on the Site in euro currency.",
+
+          "The price of the Goods does not include the cost of commission, which can be withdrawn from the Customer by payment services/intermediary banks when paying for the Goods. The order of withdrawal and the amount of such commission shall be regulated exclusively by the rules of that payment system, which the Customer has chosen and uses independently to make payment for the Goods. In case of any problems in the process of payment for the Goods, the Customer shall apply directly to the representatives of the payment system. The company is not responsible for the Customer's relations with the payment systems/intermediary banks.",
+
+          " IMPORTANT: the cost of delivery of Goods (i.e. the cost of services of third parties - delivery services) is not included in the cost of Goods specified on the Website. The cost of delivery of the first unit of Goods is 19 euros. If the Customer orders 2 or more units of Goods, the delivery is made at the expense of the Company.",
+
+          "The Customer can pay the cost of the Goods by cashless payment."
+        ]
+      },
+      {
+        "title": "DELIVERY",
+        "text": [
+          "Goods are transferred to the Delivery Service on the next day after the Customer's confirmation of the Order to the representative of the Company.",
+
+          "Goods delivery time is from 1 to 8 calendar days and depends on the selected delivery service and delivery region.",
+
+          "After confirming the Order with the Company representative, the Customer will be able to change the delivery address by contacting the phone number indicated on the Site.",
+
+          "Upon delivery, the Order is delivered in person to the Customer or to the person designated as the Order Receiver. The date of delivery of Goods to the Customer is the date of signing by the Customer of the shipping documents confirming the acceptance of Goods by the Customer (acceptance certificate, delivery note, etc.)."
+        ]
+      },
+      {
+        "title": "WITHDRAWAL RIGHT AND RETURN PROCEDURE",
+        "text": [
+          "The Customer has the right to reject the Goods without giving any reason within 14 calendar days of receipt of the Goods, provided that the Goods have not been unpacked or used by the Customer.",
+
+          "In order to exercise the right of withdrawal, the Customer must fill out a paper withdrawal form, which will come to the Customer together with the Goods during the period specified in clause 7.1. and send the Goods together with the completed withdrawal form to the address specified in the form.",
+
+          " The Company returns the cost of Goods to the Customer within 14 calendar days from the date of receipt of Goods from the Recipient by transferring the cost of Goods to the Customer's bank card, details of which he\\she should inform the Company during the registration of the return.",
+
+          "The cost of return does not include the Customer's expenses for delivery of the Goods and their return."
+        ]
+      },
+      {
+        "title": "Disclaimer",
+        "text": [
+          "In no event shall Company or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Website, even if Company or a Company authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.",
+
+          "If Customer is not satisfied with any part of the Site or these Terms, the only and exclusive remedy is to discontinue using the Site.",
+
+          "The Site is not intended to provide diagnosis, treatment or medical advice. The products displayed on the Site, including information that may be provided on the Site directly or by linking to third-party websites, are provided for informational purposes only. Please consult a physician or other health care professional regarding any medical or health-related diagnosis or treatment options.",
+
+          "The information on the Site should not be regarded as a substitute for the recommendation of a medical professional. The Site does not recommend solving health problems on your own. The information on the Site is not exhaustive and does not cover all diseases, ailments, physical conditions or their treatment."
+        ]
+      },
+      {
+        "title": "COMPLAINTS",
+        "text": [
+          "In case of questions and claims from the Customer, he/she has the right to address to the Company, for what it is necessary to fill the corresponding application and/or to call to the Company by the phone number specified on the Site. The cost of the call to the phone number of the Company is determined according to the tariffs of the Customer's telecom operator.",
+
+          " If the Company's answer is not satisfactory for the Customer, he\\she can use the means of protection of his\\her rights, which are stipulated by the legislation of his/her country. The Customer can get acquainted with his\\her rights and the way of their protection on the website: https://ec.europa.eu/info/law/law-topic/consumers_en, https://ec.europa.eu/consumers/odr/main/?event=main.trader.register."
+        ]
+      },
+      {
+        "title": "USE LICENSE",
+        "text": [
+          "Permission is granted to temporarily download one copy of the materials (information or software) on Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:"
+        ],
+        "list": [
+          "modify or copy the materials;",
+          "use the materials for any commercial purpose, or for any public display (commercial or non-commercial);",
+          "attempt to decompile or reverse engineer any software contained on Site;",
+          "remove any copyright or other proprietary notations from the materials;",
+          "transfer the materials to another person or \"mirror\" the materials on any other server."
+        ],
+        "text_1": "This license shall automatically terminate if you violate any of these restrictions and may be terminated by Company at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format."
+      },
+      {
+        "title": "AGREEMENT LANGUAGE, AGREEMENT TEXT PRESERVATION",
+        "text": [
+          "Agreement language - the language chosen by the Customer on the Site for the transaction of Goods purchase.",
+          "The Order data is sent to the Customer together with their Goods. The Company also saves the data of the Customer's Order and can resend it to them upon their request."
+        ]
+      },
+      {
+        "title": "GOVERNING LAW",
+        "text": [
+          "These Terms and Conditions are to be construed as published on the Site, and shall be applied and interpreted in accordance with the substantive law of Romania."
+        ]
+      }
+    ]
+  },
+  "cookie": {
+    "title": "Cookie Policy for Make Profit SRL",
+    "text": "This is the Cookie Policy for Make Profit SRL, accessible from <a  href=\"http://karier.me/\">http://karier.me/</a>",
+    "chapters": [
+      {
+        "title": "What Are Cookies",
+        "content": [
+          {
+            "text": "As is common practice with almost all professional websites this website uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the sites functionality."
+          },
+          {
+            "text": "For more general information on cookies see the Wikipedia article on HTTP Cookies."
+          }
+        ]
+      },
+      {
+        "title": "How We Use Cookies",
+        "content": [
+          {
+            "text": "We use cookies for a variety of reasons detailed below. Unfortunately, in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this website. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use."
+          }
+        ]
+      },
+      {
+        "title": "Disabling Cookies",
+        "content": [
+          {
+            "text": "You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of this website. Therefore, it is recommended that you do not disable cookies."
+          }
+        ]
+      },
+      {
+        "title": "The Cookies We Set",
+        "content": [
+          {
+            "sublist": [
+              {
+                "text": "<span>Account related cookies</span> You will be given a possibility to create an account on website. If you create an account with us then we will use cookies for the management of the signup process and general administration. These cookies will usually be deleted when you log out however in some cases, they may remain afterwards to remember your site preferences when logged out."
+              },
+              {
+                "text": "<span>Login related cookies</span> We use cookies when you are logged in so that we can remember this fact. This prevents you from having to log in every single time you visit a new page. These cookies are typically removed or cleared when you log out to ensure that you can only access restricted features and areas when logged in."
+              },
+              {
+                "text": "<span>Email newsletters related cookies</span> Website includes a possibility to offer newsletter or email subscription services. This website offers newsletter or email subscription services and cookies may be used to remember if you are already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed users."
+              },
+              {
+                "text": "<span>Forms related cookies</span> When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Third Party Cookies",
+        "content": [
+          {
+            "text": "In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this website."
+          },
+          {
+            "text": "This website uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the website and ways that we can improve your experience. These cookies may track things such as how long you spend on the website and the pages that you visit so we can continue to produce engaging content. For more information on Google Analytics cookies, see the official Google Analytics page."
+          }
+        ]
+      },
+      {
+        "title": "More Information",
+        "content": [
+          {
+            "text": "However, if you are still looking for more information then you can contact us through one of our preferred contact methods:"
+          },
+          {
+            "text": "Make Profit SRL | Email: support@makeprofit.srl"
+          }
+        ]
+      }
+    ]
+  },
+  "success": {
+    "header": {
+      "title": "Thank you for your interest in the Data Analyst course!",
+      "desc": "Our consultant will contact you shortly to answer all your questions."
+    },
+    "main": {
+      "title_small": "While you wait for our call, ",
+      "title": "check out 10 reasons why the profession of data analyst is in such demand today:",
+      "list": [
+        {
+          "title": "1/ Make better business decisions",
+          "text": "Such professional gathers and interprets data sets to derive insights. Based on the insights, they can identify the current situation of the business accurately. Companies can make decisions to improve their situation if it is not in their favor."
+        },
+        {
+          "title": "2/ Can predict future trends",
+          "text": "Such professionals collect the data and analyze it to identify patterns to discern trends. Based on the past trends and statistical analysis, they can predict probable trends in the future."
+        },
+        {
+          "title": "3/ Help in strategizing",
+          "text": "Data analysts can plan out strategies based on predictive analysis. Such strategies are built keeping the upcoming market trends in mind."
+        },
+        {
+          "title": "4/ Make processes more efficient",
+          "text": "Data analysts can analyze a huge amount of data in a short span of time. A lot of insights can be derived through the analyzed data which expedites the process efficiency. This in turn saves time. "
+        },
+        {
+          "title": "5/ Track behavioral changes in customers",
+          "text": "Data analysts can assess the behavior of the consumer towards products and how it has shifted over time. This helps companies in adapting to trends much faster and smoother. "
+        },
+        {
+          "title": "6/ Increase the customer base",
+          "text": "As the company starts tracking customer behavior, it can modify products as per customers’ needs. This attracts customers who will stay with the brand in the long run."
+        },
+        {
+          "title": "7/ Save companies from losses",
+          "text": "Since the predictive analysis has the capability to predict future outcomes, it gives an edge to the companies using this technique. They can avoid investing in projects and processes that do not seem fruitful as per the analysis."
+        },
+        {
+          "title": "8/ Can serve every industry",
+          "text": "The application of data analysis is in almost every industry. Since data is one of the most important assets in the present time, data analyst jobs are high in demand."
+        },
+        {
+          "title": "9/ Data analyst jobs are well paid",
+          "text": "A data analyst salary can reach up to ₹ 11.1 Lakhs during the early career stage. The average analyst salary in India is ₹ 4.3 lakh per annum. Due to the good pay scale, data analyst jobs are popular."
+        },
+        {
+          "title": "10/ Have a bright future",
+          "text": "Since many companies are now working based on data, its analysis is crucial. This is why the demand for data analysts will only grow in the future."
+        }
+      ],
+      "subtitle": "Conclusion",
+      "desc": "Data is a very important resource in this digital age. This enhances the importance of data analysis since raw data has no use until it is analyzed into useful information.",
+      "title_bottom": "As you can see, you are on the right track!  <br> We will contact you soon."
+    }
+  }
+}
