@@ -9,6 +9,8 @@ html(lang=LANG.locale)
     script.
       var locale = "!{LANG.locale}";
   body
+    include templates/mixins/menu.pug
+    +menu('index', 'dark')
     include templates/success/header.pug
     include templates/success/main.pug
     include templates/footer
