@@ -1,6 +1,6 @@
 - var FORM = LANG.form;
 
-form.form.js-registration-form(action="https://api.apispreadsheets.com/data/QduW22vQumEfA2h6/", method="post" data-validation-schema="signup-form")
+form.form.js-registration-form(action="https://api.apispreadsheets.com/data/6bytkRZqh1ZUd2cp/", method="post" data-validation-schema="signup-form")
 	h4.form__title!= FORM.title
 	input.js-input-date(type="hidden" name="date")
 	.form__inputs
@@ -9,7 +9,7 @@ form.form.js-registration-form(action="https://api.apispreadsheets.com/data/QduW
 			span.input-wrap__label.js-label!= FORM.inputName
 			span.input-wrap__error.js-error
 		.input-wrap.form__input-wrap.js-input-wrap
-			input.form__input.input-wrap__input.js-input(type="text", name="phone")
+			input.form__input.input-wrap__input.js-input(type="tel", name="phone")
 			span.input-wrap__label.js-label!= FORM.inputPhone
 			span.input-wrap__error.js-error
 		.input-wrap.form__input-wrap.js-input-wrap
